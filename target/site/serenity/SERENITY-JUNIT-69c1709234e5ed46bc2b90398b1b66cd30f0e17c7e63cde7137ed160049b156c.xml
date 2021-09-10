@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="OFV | Domiciliar clientes con RNC" skipped="0" tests="2" time="64.62" timestamp="2021-06-15 09:28:35"><testcase name="Validar Opción Tarjeta de Crédito"/><testcase name="Validar Funcionalidad Pagos Automáticos"/></testsuite>

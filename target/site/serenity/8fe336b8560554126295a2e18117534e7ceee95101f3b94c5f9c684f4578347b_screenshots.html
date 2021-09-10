@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="f369384e3c7e195a58f22fd02ac8d01961d08e9dcdd8c701b497fd19a062dd4f.html">Test Serenity</a></span>
+                > <span class="truncate-60"><a
+                    href="8fe336b8560554126295a2e18117534e7ceee95101f3b94c5f9c684f4578347b.html">Validar Reunion Creada Exitosamente </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-09-2021 17:54</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Test Serenity </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                este feature se trata de reto tecnico automatizador hdi
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="980553ab65ac3a80cb226527d564bcf09dfb50e9d5c6245f24578a314fb4b271.html">Cucumber
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="773a571d092c5846a3019576b732f5fa2a9b129891c011c10cda8839a7f193e0.html">Regresion
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Validar Reunion Creada Exitosamente
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="2c3574fdc7ff90b8ee2fc6224bbc4e4f062d4a4983b4f4f740c97180be1330c7.png" title=" Dado Que Usuario entra en Serenity" width="1366"/>
+                <img src="2c3574fdc7ff90b8ee2fc6224bbc4e4f062d4a4983b4f4f740c97180be1330c7.png" title=" Usuario navega a la p&Atilde;&iexcl;gina de Serenity" width="1366"/>
+                <img src="2c3574fdc7ff90b8ee2fc6224bbc4e4f062d4a4983b4f4f740c97180be1330c7.png" title=" Usuario opens the https://serenity.is/demo/Account/Login/?ReturnUrl=%2Fdemo%2F" width="1366"/>
+                <img src="2c3574fdc7ff90b8ee2fc6224bbc4e4f062d4a4983b4f4f740c97180be1330c7.png" title=" Usuario navega a la p&Atilde;&iexcl;gina de Serenity (completed)" width="1366"/>
+                <img src="2c3574fdc7ff90b8ee2fc6224bbc4e4f062d4a4983b4f4f740c97180be1330c7.png" title=" Dado Que Usuario entra en Serenity (completed)" width="1366"/>
+                <img src="5aee8d5aed0151e25fc9246b22126db80aff11db1e476a42c240f7b83f1f136a.png" title=" Cuando Usuario ingresa a la funcionalidad Mi Cuenta con datos: admin,serenity" width="1366"/>
+                <img src="5aee8d5aed0151e25fc9246b22126db80aff11db1e476a42c240f7b83f1f136a.png" title=" Usuario diligencia la informaci&Atilde;&sup3;n solicitada&quot;Iniciar Sesi&Atilde;&sup3;n&quot;" width="1366"/>
+                <img src="5aee8d5aed0151e25fc9246b22126db80aff11db1e476a42c240f7b83f1f136a.png" title=" Usuario enters 'admin' into Campo Texto Usuario" width="1366"/>
+                <img src="bfba6faa5c472290388457fc240aeb574689c1f2d2aab7fce5c4720048908c62.png" title=" Usuario enters 'admin' into Campo Texto Usuario (completed)" width="1366"/>
+                <img src="bfba6faa5c472290388457fc240aeb574689c1f2d2aab7fce5c4720048908c62.png" title=" Usuario enters 'serenity' into Campo Texto Password" width="1366"/>
+                <img src="8666537d490da847f384f573871fb07891025e7e4b14a20838cf8f37d4c50f2e.png" title=" Usuario enters 'serenity' into Campo Texto Password (completed)" width="1366"/>
+                <img src="8666537d490da847f384f573871fb07891025e7e4b14a20838cf8f37d4c50f2e.png" title=" Usuario clicks on Boton Iniciar Sesion" width="1366"/>
+                <img src="eb335d1ae18619d14c732bf60dc6d4732fe1487aaaf8edef9959a9e0f88edcdd.png" title=" Usuario clicks on Boton Iniciar Sesion (completed)" width="1366"/>
+                <img src="eb335d1ae18619d14c732bf60dc6d4732fe1487aaaf8edef9959a9e0f88edcdd.png" title=" Usuario diligencia la informaci&Atilde;&sup3;n solicitada&quot;Iniciar Sesi&Atilde;&sup3;n&quot; (completed)" width="1366"/>
+                <img src="eb335d1ae18619d14c732bf60dc6d4732fe1487aaaf8edef9959a9e0f88edcdd.png" title=" Cuando Usuario ingresa a la funcionalidad Mi Cuenta con datos: admin,serenity (completed)" width="1366"/>
+                <img src="4a528eb6b81e2bce2a02cd8c46a1554550a36ce845226ad1c290cd6346d2c479.png" title=" Y Usuario ingresa a business unit" width="1366"/>
+                <img src="4a528eb6b81e2bce2a02cd8c46a1554550a36ce845226ad1c290cd6346d2c479.png" title=" Usuario ingresa a link&quot;Business Units&quot;" width="1366"/>
+                <img src="4a528eb6b81e2bce2a02cd8c46a1554550a36ce845226ad1c290cd6346d2c479.png" title=" Usuario clicks on Link Organization" width="1366"/>
+                <img src="c1b6f62ae2d26af4ae112ccf039efb471481cfb23f5a972cbf26a867f53688ff.png" title=" Usuario clicks on Link Organization (completed)" width="1366"/>
+                <img src="c1b6f62ae2d26af4ae112ccf039efb471481cfb23f5a972cbf26a867f53688ff.png" title=" Usuario clicks on Link Business Units" width="1366"/>
+                <img src="d18d0d9e04f9f6e70b82eed49b7227b9a546258cc49333d96e03d1d0e952fd13.png" title=" Usuario clicks on Link Business Units (completed)" width="1366"/>
+                <img src="d18d0d9e04f9f6e70b82eed49b7227b9a546258cc49333d96e03d1d0e952fd13.png" title=" Usuario ingresa a link&quot;Business Units&quot; (completed)" width="1366"/>
+                <img src="d18d0d9e04f9f6e70b82eed49b7227b9a546258cc49333d96e03d1d0e952fd13.png" title=" Y Usuario ingresa a business unit (completed)" width="1366"/>
+                <img src="949c53649fdb468965d76f78e45864a5f2768c96717d71cf990311788fe424c4.png" title=" Y Usuario crea new business unit con datos: Test" width="1366"/>
+                <img src="949c53649fdb468965d76f78e45864a5f2768c96717d71cf990311788fe424c4.png" title=" Usuario realiza clic sobre el bot&Atilde;&sup3;n &quot;New Business Unit&quot;" width="1366"/>
+                <img src="949c53649fdb468965d76f78e45864a5f2768c96717d71cf990311788fe424c4.png" title=" Usuario clicks on Bot&Atilde;&sup3;n New Business Unit" width="1366"/>
+                <img src="f4bf94b900fb25c2af53724cf06ebaf13eed9368fae400766b31c4645bf9ad42.png" title=" Usuario clicks on Bot&Atilde;&sup3;n New Business Unit (completed)" width="1366"/>
+                <img src="f4bf94b900fb25c2af53724cf06ebaf13eed9368fae400766b31c4645bf9ad42.png" title=" Usuario realiza clic sobre el bot&Atilde;&sup3;n &quot;New Business Unit&quot; (completed)" width="1366"/>
+                <img src="f4bf94b900fb25c2af53724cf06ebaf13eed9368fae400766b31c4645bf9ad42.png" title=" Usuario diligencia la informaci&Atilde;&sup3;n solicitada&quot;New Business Unit&quot;" width="1366"/>
+                <img src="f4bf94b900fb25c2af53724cf06ebaf13eed9368fae400766b31c4645bf9ad42.png" title=" Usuario enters 'Test' into Campo Texto Name" width="1366"/>
+                <img src="7163e0123fe3afb1229a143c084af26c8454efd02a505967af5ff24919639d20.png" title=" Usuario enters 'Test' into Campo Texto Name (completed)" width="1366"/>
+                <img src="7163e0123fe3afb1229a143c084af26c8454efd02a505967af5ff24919639d20.png" title=" Usuario clicks on Bot&Atilde;&sup3;n Save" width="1366"/>
+                <img src="400b5de32c20d8dceb0c7e61eed3fe6a593468ce4d58b871badd3cbb569c699f.png" title=" Usuario clicks on Bot&Atilde;&sup3;n Save (completed)" width="1366"/>
+                <img src="400b5de32c20d8dceb0c7e61eed3fe6a593468ce4d58b871badd3cbb569c699f.png" title=" Usuario diligencia la informaci&Atilde;&sup3;n solicitada&quot;New Business Unit&quot; (completed)" width="1366"/>
+                <img src="400b5de32c20d8dceb0c7e61eed3fe6a593468ce4d58b871badd3cbb569c699f.png" title=" Y Usuario crea new business unit con datos: Test (completed)" width="1366"/>
+                <img src="37f4151eb0eb92c70ea949eb342895138dbc01f05687b60f76fa7e016d8bff8d.png" title=" Y Usuario ingresa a meeting" width="1366"/>
+                <img src="37f4151eb0eb92c70ea949eb342895138dbc01f05687b60f76fa7e016d8bff8d.png" title=" Usuario ingresa a link&quot;Meetings&quot;" width="1366"/>
+                <img src="37f4151eb0eb92c70ea949eb342895138dbc01f05687b60f76fa7e016d8bff8d.png" title=" Usuario clicks on Link Meeting" width="1366"/>
+                <img src="987fe450f12f227c6f459f8be61b13a52ebd5d30effe47383edbf32d88a494ac.png" title=" Usuario clicks on Link Meeting (completed)" width="1366"/>
+                <img src="987fe450f12f227c6f459f8be61b13a52ebd5d30effe47383edbf32d88a494ac.png" title=" Usuario clicks on Link Meetings" width="1366"/>
+                <img src="c7f49e293cf87aa2291afa871fd6778c850e1143c9fdf921b92b0941512e8f5c.png" title=" Usuario clicks on Link Meetings (completed)" width="1366"/>
+                <img src="c7f49e293cf87aa2291afa871fd6778c850e1143c9fdf921b92b0941512e8f5c.png" title=" Usuario ingresa a link&quot;Meetings&quot; (completed)" width="1366"/>
+                <img src="c7f49e293cf87aa2291afa871fd6778c850e1143c9fdf921b92b0941512e8f5c.png" title=" Y Usuario ingresa a meeting (completed)" width="1366"/>
+                <img src="403d0eba52f40844cb8e68963737a98aa18d59411e4cbc66c4d7c16ea508c443.png" title=" Y Usuario crea new meeting con datos: Prueba Completa" width="1366"/>
+                <img src="403d0eba52f40844cb8e68963737a98aa18d59411e4cbc66c4d7c16ea508c443.png" title=" Usuario realiza clic sobre el bot&Atilde;&sup3;n &quot;New Meeting&quot;" width="1366"/>
+                <img src="403d0eba52f40844cb8e68963737a98aa18d59411e4cbc66c4d7c16ea508c443.png" title=" Usuario clicks on Bot&Atilde;&sup3;n New Meeting" width="1366"/>
+                <img src="b5f962a1e1392ecd11ac84cf661898845c467ab188de0e0fff4d03383cc94765.png" title=" Usuario clicks on Bot&Atilde;&sup3;n New Meeting (completed)" width="1366"/>
+                <img src="b5f962a1e1392ecd11ac84cf661898845c467ab188de0e0fff4d03383cc94765.png" title=" Usuario realiza clic sobre el bot&Atilde;&sup3;n &quot;New Meeting&quot; (completed)" width="1366"/>
+                <img src="8f422879ffe84d7e99803f93f52af230e5d17d783f8fe55e3a479197b728ad41.png" title=" Usuario diligencia la informaci&Atilde;&sup3;n solicitada&quot;New Meeting&quot;" width="1366"/>
+                <img src="8f422879ffe84d7e99803f93f52af230e5d17d783f8fe55e3a479197b728ad41.png" title=" Usuario enters 'Prueba Completa' into Campo Meeting Name" width="1366"/>
+                <img src="dd43c291d2654063d33e7ac0c3d2b072d3d4511f582a583d407e6d59db54a597.png" title=" Usuario enters 'Prueba Completa' into Campo Meeting Name (completed)" width="1366"/>
+                <img src="dd43c291d2654063d33e7ac0c3d2b072d3d4511f582a583d407e6d59db54a597.png" title=" Usuario clicks on Bot&Atilde;&sup3;n Save" width="1366"/>
+                <img src="003984fffd55bbb65cc8eb4c423d1df0dc83009569b10b866f4da4ee20e0ef08.png" title=" Usuario clicks on Bot&Atilde;&sup3;n Save (completed)" width="1366"/>
+                <img src="003984fffd55bbb65cc8eb4c423d1df0dc83009569b10b866f4da4ee20e0ef08.png" title=" Usuario diligencia la informaci&Atilde;&sup3;n solicitada&quot;New Meeting&quot; (completed)" width="1366"/>
+                <img src="003984fffd55bbb65cc8eb4c423d1df0dc83009569b10b866f4da4ee20e0ef08.png" title=" Y Usuario crea new meeting con datos: Prueba Completa (completed)" width="1366"/>
+                <img src="c90a606d4c67131c1ef36b387f9b39d5cf4caef0c23e17134d44f7ae872a6ba8.png" title=" Entonces Usuario visualiza texto: Prueba Completa: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"OFV | Consultar información de pólizas con pago automático - Intermediario OFV","Validar Resultado Filtro Pago Automático","SUCCESS","2021-06-15T21:24:59.752-05:00[America/Bogota]","0.0","54.29"
+"OFV | Consultar información de pólizas con pago automático - Intermediario OFV","Validar Opción Exportar Resultado","SUCCESS","2021-06-15T21:25:55.018-05:00[America/Bogota]","0.0","160.53"

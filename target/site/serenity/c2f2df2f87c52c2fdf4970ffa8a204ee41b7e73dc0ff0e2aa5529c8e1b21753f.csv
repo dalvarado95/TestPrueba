@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"OFV | Consultar estados de tarjetas - Intermediarios OFV","Validar Alerta Sin Resultados","SUCCESS","2021-06-15T21:17:19.884-05:00[America/Bogota]","0.0","33.97"
+"OFV | Consultar estados de tarjetas - Intermediarios OFV","Validar Resultado Filtro Pago Automático - Columna Número de Tarjeta","SUCCESS","2021-06-15T21:17:54.85-05:00[America/Bogota]","0.0","157.0"
+"OFV | Consultar estados de tarjetas - Intermediarios OFV","Validar Resultado Filtro Pago Automático - Columna Descripción del Rechazo","SUCCESS","2021-06-15T21:20:31.865-05:00[America/Bogota]","0.0","212.73"

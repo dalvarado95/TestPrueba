@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"OFV | Consultar estados de tarjetas - Intermediarios OFV","Validar Alerta Sin Resultados","SUCCESS","2021-06-15T21:17:19.884-05:00[America/Bogota]","0.0","33.97"
+"OFV | Consultar información de pólizas con pago automático - Intermediario OFV","Validar Opción Pago Automático","ERROR","2021-06-15T21:24:04.604-05:00[America/Bogota]","0.0","53.9"
+"OFV | Domiciliar clientes con RNC","Validar Opción Tarjeta de Crédito","SUCCESS","2021-06-15T21:28:35.552-05:00[America/Bogota]","0.0","29.14"
